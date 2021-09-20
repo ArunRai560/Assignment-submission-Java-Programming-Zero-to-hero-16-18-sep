@@ -1,0 +1,28 @@
+public class clasum
+{
+
+	public static void main(String[] args)
+
+{
+
+	int a=Integer.parseInt(args[0]);  //command line argument 
+
+	int b=Integer.parseInt(args[1]);  //command line argument
+
+	int sum=a+b;
+
+	System.out.println("Sum is =" +sum);
+}
+
+}
+
+
+
+
+/*
+compile by > javac clasum.java  
+run by > java clasum 5 5
+output:-
+Sum is = 10
+*/
+	
