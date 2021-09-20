@@ -1,0 +1,45 @@
+// student details
+
+public class student
+{
+      public static void main(String args[])
+      {
+          String name;
+          int roll;
+	  float math, phy, eng;
+           
+          Scanner SC=new Scanner(System.in); 
+          System.out.print("Enter Name: "); // String name
+          name=SC.nextLine();
+          System.out.print("Enter Roll Number: "); // roll no. integer
+          roll=SC.nextInt();
+          System.out.print("Enter marks in Maths, Physics and English: "); // Float marks
+          math=SC.nextFloat();
+          phy=SC.nextFloat();
+          eng=SC.nextFloat();
+           
+          float marks=math+eng+phy;
+
+          System.out.println("Roll Number:" + roll +"\tName: "+name);
+          System.out.println("Marks (Maths, Physics, English): " +math+","+phy+","+eng);
+          System.out.println("Total Marks out of 300 : "+marks); 
+      }
+}
+     
+
+
+
+
+
+
+
+/*
+Enter Name: abc
+Enter Roll Number: 50
+Enter marks in Maths, Physics and English: 65
+63
+75
+Roll Number:50  Name: abc
+Marks (Maths, Physics, English): 65.0,63.0,75.0
+Total Marks out of 300 : 203.0
+*/

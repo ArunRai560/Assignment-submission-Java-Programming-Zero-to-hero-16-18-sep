@@ -1,0 +1,15 @@
+Compiler
+1.Compiler translates the whole program at once.
+2.Its execution is faster.
+3.It takes more time to compile the code.
+4.It generates the intermediate object code.
+5.Error show once at end of the compilation.
+6.Used by Java,C++ And C etc.
+
+Inetrpreter
+1.Ineterpreter checks program line by line.
+2.Its execution is slower.
+3.It takes less time to compile the code.
+4.It do not generates the intermediate object code.
+5.It compiles the program until error is found.
+6.Used by Python,PHP,PERL etc.
